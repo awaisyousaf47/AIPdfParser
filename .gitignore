@@ -1,0 +1,64 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/git.slnx/FileContentIndex/02a4acd0-4a2f-4635-9cc6-11083eb165bd.vsidx
+# =======================================================================
+# .NET / C# Build and Output Directories
+# =======================================================================
+# Excludes compiler outputs (DLLs, EXEs) and intermediate build files
+[Bb]in/
+[Oo]bj/
+
+# CoreCLR and Rider build artifacts
+[Ll]og/
+[Ll]ogs/
+
+# =======================================================================
+# Visual Studio Project & Workspace Files
+# =======================================================================
+# User-specific settings (window layouts, open files, active configurations)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache, internal working directories, and diagnostics
+.vs/
+*.ntvs*
+*.njsproj
+*.prouser
+
+# Roslyn compiler logs and cash
+.vs-code/
+.tst/
+
+# =======================================================================
+# Package Management & Dependencies
+# =======================================================================
+# NuGet packages directory (packages are automatically restored on build)
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Paket dependency manager
+.paket/
+
+# =======================================================================
+# Web & Frontend Development (if doing ASP.NET Core)
+# =======================================================================
+node_modules/
+.ntvs_analysis.dat
+*.secret.json
+config.json
+
+# =======================================================================
+# Operating System & Local Environment
+# =======================================================================
+.DS_Store
+Thumbs.db
+*.log
+.env
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
